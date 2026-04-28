@@ -8,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrl: './user.component.css'
 })
 export class UserComponent {
-  username="Irtiza"
+  private username="Irtiza"
+
+  get UserName(){
+    return this.username;
+  }
+
+  OnClick(){
+    alert("Clicked")
+  }
 }
