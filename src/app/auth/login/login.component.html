@@ -1,7 +1,14 @@
 <form action="submit">
+    <!-- Use d-flex and flex-column to stack elements -->
+    <div class="d-flex flex-column shadow rounded container w-75 p-4" style="border: 1px solid white;">
+        <h1 class="text-center text-white">Login</h1>
+        
+        <label for="username" class="form-label text-danger">Username</label>
+        <input type="text" name="username" id="username" class="form-control mb-3">
 
-    <div class="" style="border: 1px solid white;">
-        <h1>Login</h1>
+        <label for="password" class="form-label">Password</label>
+        <input type="password" id="password" class="form-control mb-3">
+        
+        <button type="submit" class="btn btn-primary">Login</button>
     </div>
-
 </form>
